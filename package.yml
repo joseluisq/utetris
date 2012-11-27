@@ -1,10 +1,8 @@
-name: utetris
+name: uTetris
 description: Custom web version of famouse Tetris game.
 author: joseluis_q
 category: Interface
 tags: [tetris, game, application]
 current: 1.0
 license: MIT License
-sources:
-  - "assets/uTetris-1.0.js"
 demo: http://goo.gl/l4hRG
