@@ -101,7 +101,6 @@ Public Methods :
   * uTetris.isStop()
   * uTetris.isGameover()
   * uTetris.isRunning()
-
   * uTetris.start()
   * uTetris.restart()
   * uTetris.stop()
