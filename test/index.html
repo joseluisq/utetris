@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>uTetris | Test Suite</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="../assets/qunit/qunit.css" rel="stylesheet" type="text/css" />
+        <script src="../assets/qunit/qunit.js"></script>
+        <script src="../assets/mootools-core-1.4.5-full-compat-yc.js"></script>
+        <script src="../assets/uTetris-1.0.js"></script>
+        <script src="test.js"></script>
+
+        <style>
+            .cube {
+                background: #000000;
+            }
+            .bar {
+                background: #045bc8;
+            }
+            .zleft {
+                background: #6d9b00;
+            }
+            .t {
+                background: #c20016;
+            }
+            .zright {
+                background: blueviolet;
+            }
+            .lright {
+                background: grey;
+            }
+            .lleft {
+                background: gold;
+            }
+
+            #main {
+                overflow: hidden;
+            }
+
+            #main > div {
+                float: left;
+                /*border: solid 1px;*/
+                margin-right: 20px;
+            }
+
+            #main > div:first-child {
+                border: solid 1px;
+            }
+
+            .animate td {
+                transition: all 1s ease-out;
+                -moz-transition: all 1s ease-out;
+                -webkit-transition: all 1s ease-out;
+            }    
+            .animate.out td {
+                background: #CCC;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="qunit"></div>
+
+        <div id="jslitmus_container" style="margin: 20px 10px;"></div>
+
+        <div id="main">
+            <div id="left">
+                <table id="container"></table>
+            </div>
+
+            <div id="right">
+                <div id="info">
+                    <div id="score">Score: 0</div>
+                    <div id="level">Level: 0</div>
+                    <div id="lines">Lines: 0</div>
+                </div>
+
+                <div style="border: solid 1px; margin-top: 10px;">
+                    <table id="preview"></table>
+                </div>
+
+                <div id="controls" style="padding-top: 10px">
+                    <a href="javascript:;" id="play">Start</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
