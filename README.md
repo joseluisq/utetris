@@ -96,20 +96,20 @@ Base Doc
 -----------
 
 Public Methods :
-
-    * uTetris.isPause()
-    * uTetris.isStop()
-    * uTetris.isGameover()
-    * uTetris.isRunning()
     
-    * uTetris.start()
-    * uTetris.restart()
-    * uTetris.stop()
-    * uTetris.left()
-    * uTetris.right()
-    * uTetris.down()
-    * uTetris.rotate()
-    * uTetris.pause()
+  * uTetris.isPause()
+  * uTetris.isStop()
+  * uTetris.isGameover()
+  * uTetris.isRunning()
+
+  * uTetris.start()
+  * uTetris.restart()
+  * uTetris.stop()
+  * uTetris.left()
+  * uTetris.right()
+  * uTetris.down()
+  * uTetris.rotate()
+  * uTetris.pause()
     
 Events :
 
