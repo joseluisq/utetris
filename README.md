@@ -96,7 +96,7 @@ Base Doc
 -----------
 
 Public Methods :
-    
+
     * uTetris.isPause()
     * uTetris.isStop()
     * uTetris.isGameover()
