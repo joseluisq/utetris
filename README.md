@@ -1,13 +1,12 @@
-uTetris
-========
+# uTetris
 
-Custom web version of famouse Tetris game.
+Custom Mootools web version of famouse Tetris game.
 
 
-How to use
-----------
+## How to use
 
-The js code :
+JS :
+
 ```js
 var tetris = new uTetris($('container'), $('preview'),{
     keypress: true
@@ -54,7 +53,7 @@ play.addEvent("click",function() {
 }.bind(tetris));
 ```
 
-The html code :
+HTML :
 ```html
 <div id="main">
     <div id="left">
@@ -79,21 +78,19 @@ The html code :
 </div>
 ```
 
-Live Demo
------------
+## Live Demo
 
 * Tetris game live demo [here](http://goo.gl/l4hRG)
 
 
-Screenshots
------------
+## Screenshots
+
 ![Screenshot](http://www.lbnstudio.fr/labs/tetris/test/uTetris/tetris_screeshot.jpg)
 
 
-Base Doc
------------
+## Base Doc
 
-Public Methods :
+**Public Methods :**
     
   * `uTetris.isPause()`
   * `uTetris.isStop()`
@@ -108,7 +105,7 @@ Public Methods :
   * `uTetris.rotate()`
   * `uTetris.pause()`
     
-Events :
+**Events :**
 
   * `start({level, score, lines})`
   * `restart`
@@ -123,3 +120,6 @@ Events :
   * `lines({length, level, score, lines})`
   * `levelup(level, lines)`
   * `win({level, score, lines})`
+
+## License
+Licensed under the [MIT License](http://opensource.org/licenses/MIT)
